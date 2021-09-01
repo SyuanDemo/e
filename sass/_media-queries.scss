@@ -1,0 +1,56 @@
+
+//Media Queries-Width
+$phoneM: 375px;
+$phoneL: 400px;
+$phoneXL: 600px;
+$pad: 768px;
+$padPro: 1024px;
+$pcS: 1366px;
+$pcM: 1440px;
+$pcL: 1680px;
+
+@mixin phoneM(){
+	@media screen and (min-width: $phoneM) {
+		@content;
+	}
+}
+@mixin phoneL(){
+	@media screen and (min-width: $phoneL) {
+		@content;
+	}
+}
+@mixin phoneXL(){
+	@media screen and (min-width: $phoneXL) {
+		@content;
+	}
+}
+@mixin pad(){
+	@media screen and (min-width: $pad) {
+		@content;
+	}
+}
+@mixin padPro(){
+	@media screen and (min-width: $padPro) {
+		@content;
+	}
+}
+@mixin pcS(){
+	@media screen and (min-width: $pcS) {
+		@content;
+	}
+}
+@mixin pcM(){
+	@media screen and (min-width: $pcM) {
+		@content;
+	}
+}
+@mixin pcL(){
+	@media screen and (min-width: $pcL) {
+		@content;
+	}
+}
+
+
+
+
+

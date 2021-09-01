@@ -1,0 +1,38 @@
+%translateX{
+    transform: translateX(-50%);
+    -moz-transform:  translateX(-50%);
+    -ms-transform:  translateX(-50%);
+    -o-transform:  translateX(-50%);
+    -webkit-transform:  translateX(-50%);
+}
+
+%translateY{
+    transform: translateY(-50%);
+    -moz-transform:  translateY(-50%);
+    -ms-transform:  translateY(-50%);
+    -o-transform:  translateY(-50%);
+    -webkit-transform:  translateY(-50%);
+}
+
+%translate{
+    transform: translate(-50%, -50%);
+    -moz-transform:  translate(-50%, -50%);
+    -ms-transform:  translate(-50%, -50%);
+    -o-transform:  translate(-50%, -50%);
+    -webkit-transform:  translate(-50%, -50%);
+}
+
+%rotate45{
+    transform: rotate(45deg);
+    -moz-transform:  rotate(45deg);
+    -ms-transform:  rotate(45deg);
+    -o-transform:  rotate(45deg);
+    -webkit-transform:  rotate(45deg);
+}
+%rotate-45{
+    transform: rotate(-45deg);
+    -moz-transform:  rotate(-45deg);
+    -ms-transform:  rotate(-45deg);
+    -o-transform:  rotate(-45deg);
+    -webkit-transform:  rotate(-45deg);
+}

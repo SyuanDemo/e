@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.login {
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%); }
+
+body, html {
+  height: 100%; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0); }
+
+html, body, button, input, textarea, select {
+  font-family: '微軟正黑體','Microsoft JhengHei','Heiti TC', 'LIHEI PRO', Arial, sans-serif; }
+
+body {
+  background-size: cover;
+  background-position: center center; }
+
+.login {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 50%; }
+  .login .login_form .login_logo {
+    width: 250px;
+    text-align: center;
+    margin: 0 auto 40px; }
+    .login .login_form .login_logo img {
+      width: 100%; }
+  .login .login_form .login_input_wrap {
+    width: 250px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 20px auto;
+    line-height: 35px;
+    -webkit-box-shadow: 0 0 15px rgba(110, 110, 110, 0.2);
+    box-shadow: 0 0 15px rgba(110, 110, 110, 0.2); }
+    .login .login_form .login_input_wrap .login_input {
+      width: 190px;
+      height: 28px;
+      line-height: 28px;
+      color: #074864;
+      font-size: 13px;
+      outline: none;
+      border: none; }
+      .login .login_form .login_input_wrap .login_input::-webkit-input-placeholder {
+        color: #969696;
+        font-size: 13px; }
+      .login .login_form .login_input_wrap .login_input:-ms-input-placeholder {
+        color: #969696;
+        font-size: 13px; }
+      .login .login_form .login_input_wrap .login_input::-ms-input-placeholder {
+        color: #969696;
+        font-size: 13px; }
+      .login .login_form .login_input_wrap .login_input::placeholder {
+        color: #969696;
+        font-size: 13px; }
+    .login .login_form .login_input_wrap .login_input_symbol {
+      position: relative;
+      left: 6px;
+      margin-right: 10px; }
+      .login .login_form .login_input_wrap .login_input_symbol i {
+        font-size: 14px;
+        color: #969696; }
+  .login .login_form .login_btn {
+    width: 250px;
+    height: 35px;
+    background-color: #00759C;
+    border-radius: 50px;
+    margin: 30px auto 0;
+    line-height: 35px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 117, 156, 0.3);
+    box-shadow: 0 0 15px rgba(0, 117, 156, 0.3);
+    cursor: pointer; }
+    .login .login_form .login_btn:hover {
+      background-color: #0088c7; }
+    .login .login_form .login_btn button {
+      width: 250px;
+      height: 35px;
+      border-radius: 50px;
+      line-height: 35px;
+      background-color: transparent;
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 10px;
+      cursor: pointer;
+      outline: none;
+      border: none; }
+  .login .login_form .login_forget {
+    margin-top: 20px; }
+    .login .login_form .login_forget a {
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: #444444; }
+      .login .login_form .login_forget a:hover {
+        opacity: .6; }
